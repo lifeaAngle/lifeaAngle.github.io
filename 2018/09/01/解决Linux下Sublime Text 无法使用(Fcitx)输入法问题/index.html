@@ -26,7 +26,7 @@
     <div class="bar" style="width: 0;"></div>
     <a class="icon-home image-icon" href="javascript:;"></a>
     <div title="播放/暂停" class="icon-play"></div>
-    <h3 class="subtitle">Hello World</h3>
+    <h3 class="subtitle">Solve the problem that Sublime Text can't use Sogou-Fcitx-IME</h3>
     <div class="social">
         <!--<div class="like-icon">-->
             <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
@@ -43,22 +43,30 @@
     <div class="section">
         <div class="article">
     <div class='main'>
-        <h1 class="title">Hello World</h1>
+        <h1 class="title">Solve the problem that Sublime Text can't use Sogou-Fcitx-IME</h1>
         <div class="stuff">
             <span>九月 01, 2018</span>
             
+  <ul class="post-tags-list"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Linux/">Linux</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Linux-Mint/">Linux Mint</a></li></ul>
+
 
         </div>
         <div class="content markdown">
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+            <p>解决 Linux(Ubuntu/Linux Mint等) 下无法使用搜狗输入法问题</p>
+<h3 id="方法如下："><a href="#方法如下：" class="headerlink" title="方法如下："></a>方法如下：</h3><ul>
+<li><p>更新并升级系统为最新(较新的系统会解决很多可能出现的问题)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update &amp;&amp; sudo apt-get upgrade</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>克隆项目到本地 :</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/lyfeyaj/sublime-text-imfix.git</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/lyfeyaj/sublime-text-imfix.git</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>运行脚本：</p>
+<pre><code class="bash"><span class="built_in">cd</span> sublime-text-imfix &amp;&amp; ./sublime-imfix
+</code></pre>
+</li>
+</ul>
+<h4 id="完成-重新启动-Sublime-Text-就可以在-Sublime-Text-3-中-使用-Fcitx了-注意-皮肤可能需要自己选择。"><a href="#完成-重新启动-Sublime-Text-就可以在-Sublime-Text-3-中-使用-Fcitx了-注意-皮肤可能需要自己选择。" class="headerlink" title="完成! 重新启动 Sublime Text 就可以在 Sublime Text 3 中 使用 Fcitx了! 注意: 皮肤可能需要自己选择。"></a>完成! 重新启动 Sublime Text 就可以在 Sublime Text 3 中 使用 Fcitx了! 注意: 皮肤可能需要自己选择。</h4><blockquote>
+<h4 id="PS：我只是大自然的搬运工，该方法文件来自-Github-用户-lyfeyaj"><a href="#PS：我只是大自然的搬运工，该方法文件来自-Github-用户-lyfeyaj" class="headerlink" title="PS：我只是大自然的搬运工，该方法文件来自 Github 用户 lyfeyaj"></a><em>PS：我只是大自然的搬运工，该方法文件来自 Github 用户 <a href="https://github.com/lyfeyaj/sublime-text-imfix" title="http://github.com/lyfeyaj/" target="_blank" rel="noopener">lyfeyaj</a></em></h4></blockquote>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
