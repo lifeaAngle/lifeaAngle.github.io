@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://blog.givingo.cn/"/>
+  <link href="https://givingo.cn/"/>
   <updated>2018-09-01T05:58:21.198Z</updated>
-  <id>https://blog.givingo.cn/</id>
+  <id>https://givingo.cn/</id>
   
   <author>
     <name>Daniel</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://blog.givingo.cn/2018/09/01/hello-world/"/>
-    <id>https://blog.givingo.cn/2018/09/01/hello-world/</id>
+    <link href="https://givingo.cn/2018/09/01/hello-world/"/>
+    <id>https://givingo.cn/2018/09/01/hello-world/</id>
     <published>2018-09-01T05:58:21.198Z</published>
     <updated>2018-09-01T05:58:21.198Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>解决Linux Mint 下Sublime Text 3 无法使用搜狗(Fcitx)输入法问题</title>
-    <link href="https://blog.givingo.cn/2018/03/01/%E8%A7%A3%E5%86%B3Linux%20Mint%20%E4%B8%8BSublime%20Text%203%20%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97(Fcitx)%E8%BE%93%E5%85%A5%E6%B3%95%E9%97%AE%E9%A2%98/"/>
-    <id>https://blog.givingo.cn/2018/03/01/解决Linux Mint 下Sublime Text 3 无法使用搜狗(Fcitx)输入法问题/</id>
+    <link href="https://givingo.cn/2018/03/01/%E8%A7%A3%E5%86%B3Linux%20Mint%20%E4%B8%8BSublime%20Text%203%20%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97(Fcitx)%E8%BE%93%E5%85%A5%E6%B3%95%E9%97%AE%E9%A2%98/"/>
+    <id>https://givingo.cn/2018/03/01/解决Linux Mint 下Sublime Text 3 无法使用搜狗(Fcitx)输入法问题/</id>
     <published>2018-03-01T10:45:45.000Z</published>
     <updated>2018-09-01T07:11:20.837Z</updated>
     
@@ -58,9 +58,9 @@
     </summary>
     
     
-      <category term="Linux" scheme="https://blog.givingo.cn/tags/Linux/"/>
+      <category term="Linux" scheme="https://givingo.cn/tags/Linux/"/>
     
-      <category term="Linux Mint" scheme="https://blog.givingo.cn/tags/Linux-Mint/"/>
+      <category term="Linux Mint" scheme="https://givingo.cn/tags/Linux-Mint/"/>
     
   </entry>
   
