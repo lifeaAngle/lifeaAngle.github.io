@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://givingo.cn/"/>
-  <updated>2018-09-01T05:58:21.198Z</updated>
+  <updated>2018-09-01T11:34:31.875Z</updated>
   <id>https://givingo.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Solve the problem that Sublime Text can&#39;t use Sogou-Fcitx-IME</title>
+    <link href="https://givingo.cn/2018/09/01/%E8%A7%A3%E5%86%B3Linux%20Mint%20%E4%B8%8BSublime%20Text%203%20%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97(Fcitx)%E8%BE%93%E5%85%A5%E6%B3%95%E9%97%AE%E9%A2%98/"/>
+    <id>https://givingo.cn/2018/09/01/解决Linux Mint 下Sublime Text 3 无法使用搜狗(Fcitx)输入法问题/</id>
+    <published>2018-09-01T11:34:31.875Z</published>
+    <updated>2018-09-01T11:34:31.875Z</updated>
+    
+    <content type="html"><![CDATA[<p>解决 Linux(Ubuntu/Linux Mint等) 下无法使用搜狗输入法问题</p><h3 id="方法如下："><a href="#方法如下：" class="headerlink" title="方法如下："></a>方法如下：</h3><ul><li><p>更新并升级系统为最新(较新的系统会解决很多可能出现的问题)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update &amp;&amp; sudo apt-get upgrade</span><br></pre></td></tr></table></figure></li><li><p>克隆项目到本地 :</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/lyfeyaj/sublime-text-imfix.git</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/lyfeyaj/sublime-text-imfix.git</span><br></pre></td></tr></table></figure></li><li><p>运行脚本：</p><pre><code class="bash"><span class="built_in">cd</span> sublime-text-imfix &amp;&amp; ./sublime-imfix</code></pre></li></ul><h4 id="完成-重新启动-Sublime-Text-就可以在-Sublime-Text-3-中-使用-Fcitx了-注意-皮肤可能需要自己选择。"><a href="#完成-重新启动-Sublime-Text-就可以在-Sublime-Text-3-中-使用-Fcitx了-注意-皮肤可能需要自己选择。" class="headerlink" title="完成! 重新启动 Sublime Text 就可以在 Sublime Text 3 中 使用 Fcitx了! 注意: 皮肤可能需要自己选择。"></a>完成! 重新启动 Sublime Text 就可以在 Sublime Text 3 中 使用 Fcitx了! 注意: 皮肤可能需要自己选择。</h4><blockquote><h4 id="PS：我只是大自然的搬运工，该方法文件来自-Github-用户-lyfeyaj"><a href="#PS：我只是大自然的搬运工，该方法文件来自-Github-用户-lyfeyaj" class="headerlink" title="PS：我只是大自然的搬运工，该方法文件来自 Github 用户 lyfeyaj"></a><em>PS：我只是大自然的搬运工，该方法文件来自 Github 用户 <a href="https://github.com/lyfeyaj/sublime-text-imfix" title="http://github.com/lyfeyaj/" target="_blank" rel="noopener">lyfeyaj</a></em></h4></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;解决 Linux(Ubuntu/Linux Mint等) 下无法使用搜狗输入法问题&lt;/p&gt;
+&lt;h3 id=&quot;方法如下：&quot;&gt;&lt;a href=&quot;#方法如下：&quot; class=&quot;headerlink&quot; title=&quot;方法如下：&quot;&gt;&lt;/a&gt;方法如下：&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="https://givingo.cn/tags/Linux/"/>
+    
+      <category term="Linux Mint" scheme="https://givingo.cn/tags/Linux-Mint/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -34,33 +61,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Solve the problem that Sublime Text can&#39;t use Sogou-Fcitx-IME</title>
-    <link href="https://givingo.cn/2018/03/01/%E8%A7%A3%E5%86%B3Linux%20Mint%20%E4%B8%8BSublime%20Text%203%20%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E6%90%9C%E7%8B%97(Fcitx)%E8%BE%93%E5%85%A5%E6%B3%95%E9%97%AE%E9%A2%98/"/>
-    <id>https://givingo.cn/2018/03/01/解决Linux Mint 下Sublime Text 3 无法使用搜狗(Fcitx)输入法问题/</id>
-    <published>2018-03-01T10:45:45.000Z</published>
-    <updated>2018-09-01T10:44:32.734Z</updated>
-    
-    <content type="html"><![CDATA[<p>解决 Linux(Ubuntu/Linux Mint等) 下无法使用搜狗输入法问题</p><h3 id="方法如下："><a href="#方法如下：" class="headerlink" title="方法如下："></a>方法如下：</h3><ul><li><p>更新并升级系统为最新(较新的系统会解决很多可能出现的问题)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update &amp;&amp; sudo apt-get upgrade</span><br></pre></td></tr></table></figure></li><li><p>克隆项目到本地 :</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/lyfeyaj/sublime-text-imfix.git</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/lyfeyaj/sublime-text-imfix.git</span><br></pre></td></tr></table></figure></li><li><p>运行脚本：</p><pre><code class="bash"><span class="built_in">cd</span> sublime-text-imfix &amp;&amp; ./sublime-imfix</code></pre></li></ul><h4 id="完成-重新启动-Sublime-Text-就可以在-Sublime-Text-3-中-使用-Fcitx了-注意-皮肤可能需要自己选择。"><a href="#完成-重新启动-Sublime-Text-就可以在-Sublime-Text-3-中-使用-Fcitx了-注意-皮肤可能需要自己选择。" class="headerlink" title="完成! 重新启动 Sublime Text 就可以在 Sublime Text 3 中 使用 Fcitx了! 注意: 皮肤可能需要自己选择。"></a>完成! 重新启动 Sublime Text 就可以在 Sublime Text 3 中 使用 Fcitx了! 注意: 皮肤可能需要自己选择。</h4><blockquote><h4 id="PS：我只是大自然的搬运工，该方法文件来自-Github-用户-lyfeyaj"><a href="#PS：我只是大自然的搬运工，该方法文件来自-Github-用户-lyfeyaj" class="headerlink" title="PS：我只是大自然的搬运工，该方法文件来自 Github 用户 lyfeyaj"></a><em>PS：我只是大自然的搬运工，该方法文件来自 Github 用户 <a href="https://github.com/lyfeyaj/sublime-text-imfix" title="http://github.com/lyfeyaj/" target="_blank" rel="noopener">lyfeyaj</a></em></h4></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;解决 Linux(Ubuntu/Linux Mint等) 下无法使用搜狗输入法问题&lt;/p&gt;
-&lt;h3 id=&quot;方法如下：&quot;&gt;&lt;a href=&quot;#方法如下：&quot; class=&quot;headerlink&quot; title=&quot;方法如下：&quot;&gt;&lt;/a&gt;方法如下：&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;
-      
-    
-    </summary>
-    
-    
-      <category term="Linux" scheme="https://givingo.cn/tags/Linux/"/>
-    
-      <category term="Linux Mint" scheme="https://givingo.cn/tags/Linux-Mint/"/>
     
   </entry>
   
