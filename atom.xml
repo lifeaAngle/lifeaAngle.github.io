@@ -49,17 +49,15 @@
     <link href="https://givingo.cn/2018/03/02/%E8%A7%A3%E5%86%B3LinuxSublime-Text%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8Fcitx%E8%BE%93%E5%85%A5%E6%B3%95%E9%97%AE%E9%A2%98/"/>
     <id>https://givingo.cn/2018/03/02/解决LinuxSublime-Text无法使用Fcitx输入法问题/</id>
     <published>2018-03-02T11:20:01.000Z</published>
-    <updated>2018-09-02T16:10:22.492Z</updated>
+    <updated>2018-09-03T17:30:45.334Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="方法如下："><a href="#方法如下：" class="headerlink" title="方法如下："></a>方法如下：</h4><ul><li><p>更新并升级系统为最新(较新的系统会解决很多可能出现的问题)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update &amp;&amp; sudo apt-get upgrade</span><br></pre></td></tr></table></figure></li><li><p>克隆项目到本地 :</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/lyfeyaj/sublime-text-imfix.git</span><br></pre></td></tr></table></figure></li><li><p>运行脚本：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> sublime-text-imfix &amp;&amp; ./sublime-imfix</span><br></pre></td></tr></table></figure></li></ul><h4 id="执行完后重启"><a href="#执行完后重启" class="headerlink" title="执行完后重启"></a>执行完后重启</h4><ul><li>完成! 重新启动 Sublime Text 就可以在 Sublime Text 3 中 使用 Fcitx了! 注意: 皮肤可能需要自己选择。<ul><li>柯南秀生理性</li></ul></li></ul><blockquote><p><em>PS：我只是大自然的搬运工，该方法文件来自 Github 用户 <a href="https://github.com/lyfeyaj/sublime-text-imfix" title="http://github.com/lyfeyaj/" target="_blank" rel="noopener">lyfeyaj</a></em></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h4 id="方法如下："><a href="#方法如下：" class="headerlink" title="方法如下："></a>方法如下：</h4><p>1、更新并升级系统为最新(较新的系统会解决很多可能出现的问题)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update &amp;&amp; sudo apt-get upgrade</span><br></pre></td></tr></table></figure></p><p>2、克隆项目到本地 :<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/lyfeyaj/sublime-text-imfix.git</span><br></pre></td></tr></table></figure></p><p>3、运行脚本：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> sublime-text-imfix &amp;&amp; ./sublime-imfix</span><br></pre></td></tr></table></figure></p><h4 id="执行完后重启"><a href="#执行完后重启" class="headerlink" title="执行完后重启"></a>执行完后重启</h4><p>完成! 重新启动 Sublime Text 就可以在 Sublime Text 3 中 使用 Fcitx了! 注意: 皮肤可能需要自己选择。</p><blockquote><p><em>PS：我只是大自然的搬运工，该方法文件来自 Github 用户 <a href="https://github.com/lyfeyaj/sublime-text-imfix" title="http://github.com/lyfeyaj/" target="_blank" rel="noopener">lyfeyaj</a></em></p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h4 id=&quot;方法如下：&quot;&gt;&lt;a href=&quot;#方法如下：&quot; class=&quot;headerlink&quot; title=&quot;方法如下：&quot;&gt;&lt;/a&gt;方法如下：&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;更新并升级系统为最新(较新的系统会解决很多可能出现的问题)&lt;/p&gt;
-&lt;figure class=&quot;
+        &lt;h4 id=&quot;方法如下：&quot;&gt;&lt;a href=&quot;#方法如下：&quot; class=&quot;headerlink&quot; title=&quot;方法如下：&quot;&gt;&lt;/a&gt;方法如下：&lt;/h4&gt;&lt;p&gt;1、更新并升级系统为最新(较新的系统会解决很多可能出现的问题)&lt;br&gt;&lt;figure class=&quot;highligh
       
     
     </summary>
